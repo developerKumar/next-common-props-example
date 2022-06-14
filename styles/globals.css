@@ -14,3 +14,19 @@ a {
 * {
   box-sizing: border-box;
 }
+.nav {
+  display: flex;
+  background-color: #d3d3d3;
+  justify-content: center;
+  padding: 20px;
+}
+
+.nav a {
+  margin: 0 10px;
+}
+.common-comp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
